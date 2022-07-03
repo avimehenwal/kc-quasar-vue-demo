@@ -1,5 +1,9 @@
 <template>
   <q-page class="row items-center justify-evenly">
+    <!-- <router-link to="/about"> -->
+    <router-link :to="{ name: 'aboutPage' }">
+      <p>to About Page</p>
+    </router-link>
     <example-component
       title="Example component"
       active
