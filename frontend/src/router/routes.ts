@@ -15,6 +15,7 @@ const routes: RouteRecordRaw[] = [
         path: '/user',
         name: 'userMgmt',
         component: () => import('pages/UserManagementPage.vue'),
+        meta: { requiresAuth: true },
       },
     ],
   },
