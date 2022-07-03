@@ -4,6 +4,9 @@
     <router-link :to="{ name: 'aboutPage' }">
       <p>to About Page</p>
     </router-link>
+    <router-link :to="{ name: 'userMgmt' }">
+      <p>User Managment</p>
+    </router-link>
     <example-component
       title="Example component"
       active
